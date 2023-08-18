@@ -1,0 +1,43 @@
+package Slide24;
+
+public class Carro {
+	int ano;
+	boolean statusMotor = false;
+	boolean movimentoCarro = false;
+	
+	public Carro(int ano, boolean statusMotor, boolean movimentoCarro) {
+		this.ano = ano;
+		this.statusMotor = statusMotor;
+		this.movimentoCarro = movimentoCarro;
+	}
+	
+	public void ligarMotor() {
+		if(this.statusMotor == false) {
+			this.statusMotor = true;
+			System.out.println("O motor está ligado");
+		}
+	}
+	
+	public void desligarMotor() {
+		if(this.statusMotor == true) {
+			this.statusMotor = false;
+			System.out.println("O motor está desligado");
+		}
+	}
+	
+	public void andar() {
+		if(this.movimentoCarro == false) {
+			this.movimentoCarro = true;
+			System.out.println("O carro esta andando");
+		}
+	}
+	
+	public void parar() {
+		if(this.movimentoCarro == true) {
+			this.movimentoCarro = false;
+			System.out.println("O carro esta parado");
+		}
+	}
+	
+
+}

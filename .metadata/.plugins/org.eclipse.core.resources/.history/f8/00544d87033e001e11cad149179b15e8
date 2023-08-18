@@ -1,0 +1,11 @@
+
+public class Ponto {
+	
+	double x1;
+	
+	public Ponto (double x1) {
+		
+	}
+	
+
+}

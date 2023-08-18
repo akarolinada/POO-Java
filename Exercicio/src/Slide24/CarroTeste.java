@@ -1,0 +1,19 @@
+package Slide24;
+
+public class CarroTeste {
+
+	public static void main(String[] args) {
+		Carro carro = new Carro(2023, false, false);
+		
+		carro.andar();
+		carro.andar();
+		carro.parar();
+		carro.parar();
+		carro.desligarMotor();
+		carro.ligarMotor();
+		carro.desligarMotor();
+		
+
+	}
+
+}

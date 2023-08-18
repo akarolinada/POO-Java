@@ -1,0 +1,12 @@
+package Slide23;
+
+public class PontoTeste {
+
+	public static void main(String[] args) {
+		Ponto ponto = new Ponto(8,10);
+		
+		ponto.distancia(15, 12);
+	}
+	
+
+}

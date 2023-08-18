@@ -1,0 +1,18 @@
+package Slide21;
+
+public class Pessoa {
+	String nome;
+	int idade;
+	double altura;
+	
+	public void Pessoa(String nome, int idade, double altura) {
+		this.nome = nome;
+		this.idade = idade;
+		this.altura = altura;
+	}
+	
+	public void apresentar() {
+		System.out.println(this.nome + " tem " + this.idade + " e mede " + this.altura);
+	}
+
+}

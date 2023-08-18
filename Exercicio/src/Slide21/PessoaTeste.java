@@ -1,0 +1,12 @@
+package Slide21;
+
+public class PessoaTeste {
+
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa("Karol" , 32 , 1.71);
+		
+		pessoa.apresentar();
+
+	}
+
+}
